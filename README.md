@@ -61,11 +61,11 @@ The create_annotationstxt.py file also provides the code for k-fold annotations.
 # 3. Running The code
 ### 3.1 Important Files In codebase: 
 #### 3.1.1 `models.py` in the 'models' folder creates and defines all the models.
-#### 3.1.2 `mt-pkdot.py` The main code. Trains the student model.	
+#### 3.1.2 `mtpkdot.py` The main code. Trains the student model.	
 ##### 3.1.2.1 Run the 'train_self_distil_kfold' to run the alignment.
 ##### 3.1.2.2 Run the 'train_student_mt_k_fold' to run the K-fold student training.
 #### 3.1.3 `video_dataset_mm.py` Provides the dataloaders to be used by pkdot_kfold file. Used to load both visual and phyioslogical modality.
-#### 3.1.4 `pkdot_utils.py` Provides functions for similarity matrices and visualizations.
+#### 3.1.4 `mtpkdot_utils.py` Provides functions for similarity matrices and visualizations.
 #### 3.1.5 `physio_transforms.py`Provides the functions for transformation and filtering of physiological modality.
 
 
