@@ -6,7 +6,7 @@
 ----------------
 
 # 0. Table of Contents
-#### This manual has has two parts
+#### This manual has has three parts
 ### 1- Installation
 Provides installation guide.
 ### 2- Dataset 
