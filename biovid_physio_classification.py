@@ -160,12 +160,6 @@ class PhysioResNet18(nn.Module):
         return x
 
 
-
-
-
-
-
-
 physio_model = PhysioResNet18(num_classes=2)
 
 
@@ -190,11 +184,6 @@ if __name__ == '__main__':
 
 
 
-    """ DEMO 3 WITH TRANSFORMS """
-    # As of torchvision 0.8.0, torchvision transforms support batches of images
-    # of size (BATCH x CHANNELS x HEIGHT x WIDTH) and apply deterministic or random
-    # transformations on the batch identically on all images of the batch. Any torchvision
-    # transform for image augmentation can thus also be used  for video augmentation.
     preprocess = transforms.Compose([
         ImglistToTensor(),  # list of PIL images to (FRAMES x CHANNELS x HEIGHT x WIDTH) tensor
         transforms.Resize(112),  # image batch, resize smaller edge to 299
