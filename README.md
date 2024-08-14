@@ -12,7 +12,7 @@ Provides installation guide.
 ### 2- Dataset 
 Details on structuring and preparing the data.
 
-### 2- Running the code
+### 3- Running the code
 Details on how to run the code.
 
 ----------------
