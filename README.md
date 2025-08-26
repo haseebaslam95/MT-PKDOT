@@ -67,7 +67,7 @@ The create_annotationstxt.py file also provides the code for k-fold annotations.
 #### 3.1.3 `video_dataset_mm.py` Provides the dataloaders to be used by the pkdot_kfold file. Used to load both visual and physiological modality.
 #### 3.1.4 `mtpkdot_utils.py` Provides functions for similarity matrices and visualizations.
 #### 3.1.5 `physio_transforms.py` Provides the functions for transformation and filtering of physiological modality.
-#### 'models.transformation_network.py' This file provides the model definition of both the transformation network, as well as the modality adapters.
+#### 3.1.6 'models.transformation_network.py' This file provides the model definition of both the transformation network, as well as the modality adapters.
 
 
 The 'pkdot_kfold.py' file requires the paths for the pretrained teacher models. 
